@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Archives de données (trop lourdes pour GitHub)
+*.zip
+
+# Jeux de données
+dataset2/
+test1/
+PATCHES/
+LABELS/
+shaded_modelnet40v1_train/
+shaded_modelnet40v1_test/
+
+# Descripteurs LBP générés
+Training_*.txt
+Test_*.txt
+tmp_*.txt
+probe.txt
+
+# Caches générés par les scripts
+.dataset3d_lbp_cache/
+.lbp_montages/
+
+# Éditeur / système
+.vscode/
+.DS_Store
+Thumbs.db
